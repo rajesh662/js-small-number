@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>small number</title>
+</head>
+<body>
+    <h1>small number </h1>
+    <script>
+        let a = [2,345,67,8,3,5,6,74,90,76,1,4,2,3];
+
+function name(){
+
+    for(i=0; i<a.length; i++){
+        for(j=0; j<i; j++){
+            if(a[i]>a[j]){
+                let b = a[i];
+                a[i] = a[j];
+                a[j] = b;
+            }
+            
+        }
+    }
+    document.write(a[j]);
+
+}
+name(a);
+
+    </script>
+</body>
+</html>
